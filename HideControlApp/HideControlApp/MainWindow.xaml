@@ -1,0 +1,61 @@
+﻿<Window x:Class="HideControlApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HideControlApp.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        x:Name="AppWindow"
+        Height="550" Width="850"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+    
+    <!--// DataContext//-->
+
+    <Window.DataContext>
+        <local:ViewModel/>
+    </Window.DataContext>
+    
+    <!--// BooleanToVisibilityConverter //-->
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibility"/>
+    </Window.Resources>
+    
+    <Grid>
+       <!--//background border//-->
+
+        <Border Style="{StaticResource BackgroundStyle}"/>
+        
+        <!--//showpanel button//-->
+
+        <Button Command="{Binding ShowPanelCommand}"
+            Style="{StaticResource MenuBtnStyle}"/>
+        
+        <!--//boder control//-->
+
+        <Border Style="{StaticResource PanelStyle}"
+                Visibility="{Binding IsPanelVisible,Converter={StaticResource BooleanToVisibility}}">
+            
+            <!--//hide panel button//-->
+            <Button Command="{Binding HidePanelCommand}"
+                Style="{StaticResource ClosePanelStyle}"/>
+
+        </Border>
+        
+        <!--//channel name//-->
+        <Grid Style="{StaticResource NameBase}">
+            <TextBlock Style="{StaticResource TextOne}"/>
+            <Border Style="{StaticResource TextBorder}">
+                <TextBlock Style="{StaticResource TextTwo}"/>
+            </Border>
+
+        </Grid>
+            <!--// close app button//-->
+        <Button Command="{Binding CloseAppCommand}"
+                CommandParameter="{Binding ElementName=AppWindow}"
+            Style="{StaticResource CloseAppStyle}"/>
+    </Grid>
+</Window>
