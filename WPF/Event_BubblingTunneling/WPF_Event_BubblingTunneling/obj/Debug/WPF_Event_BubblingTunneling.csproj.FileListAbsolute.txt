@@ -1,0 +1,16 @@
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\bin\Debug\WPF_Event_BubblingTunneling.exe.config
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\bin\Debug\WPF_Event_BubblingTunneling.exe
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\bin\Debug\WPF_Event_BubblingTunneling.pdb
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\WPF_Event_BubblingTunneling.csproj.AssemblyReference.cache
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\WPF_Event_BubblingTunneling.csproj.SuggestedBindingRedirects.cache
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\MainWindow.g.cs
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\App.g.cs
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\WPF_Event_BubblingTunneling_MarkupCompile.cache
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\WPF_Event_BubblingTunneling_MarkupCompile.lref
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\MainWindow.baml
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\WPF_Event_BubblingTunneling.g.resources
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\WPF_Event_BubblingTunneling.Properties.Resources.resources
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\WPF_Event_BubblingTunneling.csproj.GenerateResource.cache
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\WPF_Event_BubblingTunneling.csproj.CoreCompileInputs.cache
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\WPF_Event_BubblingTunneling.exe
+C:\Users\bluep\source\repos\WPF_Event_BubblingTunneling\WPF_Event_BubblingTunneling\obj\Debug\WPF_Event_BubblingTunneling.pdb
